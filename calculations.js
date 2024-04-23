@@ -1,17 +1,17 @@
 function increaseBalance(x, y) {
-  return (x += y);
+  return x += y;
 }
 
 function decreaseBalance(x, y) {
-  return (x -= y);
+  return x -= y;
 }
 
 function divideBalanceByAccounts(x, y) {
-  return (x /= y);
+  return x /= y;
 }
 
 function getRestAfterDivision(x, y) {
-  return (x %= y);
+  return x %= y;
 }
 
 function incrementNumber(x) {
