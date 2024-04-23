@@ -6,6 +6,7 @@ Assignment operators are used in JavaScript to assign values to variables. This 
 - [Shift assignment operators](#shift-assignment-operators)
 - [Bitwise assignment operators](#bitwise-assignment-operators)
 - [Logical assignment operators](#logical-assignment-operators)
+- [Increment and decrement operators](#increment-and-decrement-operators)
 
 ## Basic assignment operators
 
@@ -137,3 +138,41 @@ Assigns the value of the right operand to the left operand only if the left oper
 ### `??=`
 Assigns the value of the right operand to the left operand only if the left operand is null or undefined.
 - **Example:** If `x = null` and `y = 5`, then `x ??= y` results in `x = 5`; but if `x = 3`, then `x ??= y` keeps `x = 3`.
+
+---
+
+## Increment and decrement operators
+
+These operators are used to increase or decrease the value of a variable by one. They are very useful in loops and when you need to adjust a variable's value efficiently.
+
+### `++`
+The increment operator increases the value of the operand by one. It can be used as either a prefix or a postfix.
+
+- **Prefix Example:** `++x` increments `x` by one before the expression is evaluated.
+  - **Usage:** If `x = 5`, then `y = ++x` assigns `6` to both `y` and `x`.
+- **Postfix Example:** `x++` increments `x` by one after the expression is evaluated.
+  - **Usage:** If `x = 5`, then `y = x++` assigns `5` to `y` and `6` to `x`.
+
+<details>
+<summary><b>Detailed explanation (click to expand)</b></summary>
+
+When using the increment operator in postfix form (`x++`), the current value of `x` is returned and used in the expression before `x` is incremented. Thus, in the postfix example, `y = x++`, `y` is assigned the original value of `x`, and then `x` is increased by one.
+
+</details>
+
+### `--`
+The decrement operator decreases the value of the operand by one. It can also be used as either a prefix or a postfix.
+
+- **Prefix Example:** `--x` decrements `x` by one before the expression is evaluated.
+  - **Usage:** If `x = 5`, then `y = --x` assigns `4` to both `y` and `x`.
+- **Postfix Example:** `x--` decrements `x` by one after the expression is evaluated.
+  - **Usage:** If `x = 5`, then `y = x--` assigns `5` to `y` and `4` to `x`.
+
+<details>
+<summary><b>Detailed explanation (click to expand)</b></summary>
+
+When using the decrement operator in postfix form (`x--`), the current value of `x` is returned and used in the expression before `x` is decreased. Thus, in the postfix example, `y = x--`, `y` is assigned the original value of `x`, and then `x` is decreased by one.
+
+</details>
+
+
