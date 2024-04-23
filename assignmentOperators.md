@@ -39,6 +39,8 @@ Takes the modulus using two operands and assigns the result to the left operand.
 Raises the left operand to the power of the right operand and assigns the result to the left operand.
 - **Example:** `x **= 3` is equivalent to `x = x ** 3`
 
+---
+
 ## Shift assignment operators
 
 These operators manipulate the bit positions of the left operand.
@@ -85,6 +87,8 @@ The right shift operator (`>>=`) moves the bits of the left operand to the right
 Shifts the bits of the left operand to the right by the number of places specified by the right operand, filling the leftmost bits with zeros regardless of the sign.
 - **Example:** If `x = 8` (binary 1000), then `x >>>= 2` will result in `x = 2` (binary 0010).
 
+---
+
 ## Bitwise assignment operators
 
 These operators perform bitwise operations on the bits of both operands and assign the result to the left operand.
@@ -116,6 +120,7 @@ After performing the XOR operation, the resulting binary representation of `x` b
 
 </details>
 
+---
 
 ## Logical assignment operators
 
