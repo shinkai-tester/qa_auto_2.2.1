@@ -2,6 +2,11 @@
 
 Assignment operators are used in JavaScript to assign values to variables. This document breaks down various types of assignment operators into categories for easier understanding.
 
+- [Basic assignment operators](#basic-assignment-operators)
+- [Shift assignment operators](#shift-assignment-operators)
+- [Bitwise assignment operators](#bitwise-assignment-operators)
+- [Logical assignment operators](#logical-assignment-operators)
+
 ## Basic assignment operators
 
 These operators are fundamental for performing arithmetic operations and assigning their results to variables.
